@@ -17,6 +17,7 @@ class TabBarApp extends StatelessWidget {
           appBar: AppBar(
             backgroundColor: Colors.teal,
             bottom: const TabBar(
+              indicatorColor: Colors.pink,
               tabs: [
                 Tab(icon: Icon(Icons.directions_walk)),
                 Tab(icon: Icon(Icons.directions_bike)),
