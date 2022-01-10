@@ -32,28 +32,28 @@ class TabBarApp extends StatelessWidget {
             children: [
               Icon(
                 Icons.directions_train,
-                size: 200,
-                color: Colors.pink,
+                size: 400,
+                color: Colors.teal,
               ),
               Icon(
                 Icons.directions_walk,
-                size: 200,
-                color: Colors.pink,
+                size: 400,
+                color: Colors.teal,
               ),
               Icon(
                 Icons.directions_bike,
-                size: 200,
-                color: Colors.pink,
+                size: 400,
+                color: Colors.teal,
               ),
               Icon(
                 Icons.directions_car,
-                size: 200,
-                color: Colors.pink,
+                size: 400,
+                color: Colors.teal,
               ),
               Icon(
                 Icons.phone_iphone,
-                size: 200,
-                color: Colors.pink,
+                size: 400,
+                color: Colors.teal,
               ),
             ],
           ),
