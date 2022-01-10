@@ -14,6 +14,7 @@ class TabBarApp extends StatelessWidget {
       home: DefaultTabController(
         length: 5,
         child: Scaffold(
+          backgroundColor: Colors.black,
           appBar: AppBar(
             backgroundColor: Colors.teal,
             bottom: const TabBar(
