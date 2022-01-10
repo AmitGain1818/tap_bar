@@ -12,7 +12,7 @@ class TabBarApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 4,
+        length: 5,
         child: Scaffold(
           appBar: AppBar(
             bottom: const TabBar(
@@ -21,6 +21,7 @@ class TabBarApp extends StatelessWidget {
                 Tab(icon: Icon(Icons.directions_walk)),
                 Tab(icon: Icon(Icons.directions_bike)),
                 Tab(icon: Icon(Icons.directions_car)),
+                Tab(icon: Icon(Icons.phone_iphone)),
               ],
             ),
             title: const Text('Tabs'),
@@ -43,12 +44,16 @@ class TabBarApp extends StatelessWidget {
                 size: 200,
                 color: Colors.pink,
               ),
-              Tab(
-                  icon: Icon(
+              Icon(
                 Icons.directions_car,
                 size: 200,
                 color: Colors.pink,
-              )),
+              ),
+              Icon(
+                Icons.phone_iphone,
+                size: 200,
+                color: Colors.pink,
+              ),
             ],
           ),
         ),
