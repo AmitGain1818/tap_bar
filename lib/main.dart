@@ -35,7 +35,7 @@ class TabBarApp extends StatelessWidget {
               Icon(
                 Icons.directions_walk,
                 size: 400,
-                color: Colors.teal,
+                color: Colors.purple,
               ),
               Icon(
                 Icons.directions_bike,
@@ -45,12 +45,12 @@ class TabBarApp extends StatelessWidget {
               Icon(
                 Icons.directions_car,
                 size: 400,
-                color: Colors.teal,
+                color: Colors.indigoAccent,
               ),
               Icon(
                 Icons.phone_iphone,
                 size: 400,
-                color: Colors.teal,
+                color: Colors.deepOrange,
               ),
               Image(
                 image: NetworkImage(
